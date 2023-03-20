@@ -1,0 +1,38 @@
+.login{
+   display : flex;
+   align-items: center;
+   justify-content: center; 
+   height: calc(100vh - 70px);
+   background-color: gray;
+}
+.loginForm{
+    background-color: white;
+    padding: 0 50px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.userInputLogin{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+.userInput {
+    height: 30px;
+    border-radius: 5px;
+    border : 1px solid gray;
+}
+.userInputLabel {
+    padding : 10px 0;
+    font-weight: bold;
+}
+.loginButton{
+    width: 100%;
+    margin-top : 60px;
+    margin-bottom : 20px;
+    height: 40px;
+    border: none;
+    background-color: rgb(62, 194, 62);
+    border-radius: 10px;
+}

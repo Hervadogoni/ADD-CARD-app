@@ -1,0 +1,44 @@
+.createPage{
+    flex : 4;
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 186, 177);
+}
+form{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.createField{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.createFieldInput{
+    height: 30px;
+    width : 250px;
+
+}
+.createFieldLabel{
+    margin-bottom : 10px;
+}
+.createButton{
+    width: 560px;
+    margin-left: 20px;
+    background-color: rgb(9, 51, 68);
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.createFieldLabel{
+    font-weight: bold;
+}

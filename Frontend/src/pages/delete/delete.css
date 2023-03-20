@@ -1,0 +1,39 @@
+.delete{
+    flex : 4;
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 186, 177);
+}
+.deleteForm{
+    display: flex;
+    justify-content: center;
+}
+.deleteField{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.deleteButton{
+    width: 100px;
+    margin-left: 30px;
+    height: 40px;
+    margin-top: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+.deleteFieldInput{
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.delateFieldLabel{
+    margin-left: 10px;
+    font-weight: bold;
+}

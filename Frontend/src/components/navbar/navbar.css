@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    align-items : center;
+    justify-content : space-between;
+    height: 70px;
+    background-color: rgb(62, 194, 62);
+    padding : 0 30px;
+}
+.navLink{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.navbarButton{
+    width: 100px;
+    padding: 7px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
